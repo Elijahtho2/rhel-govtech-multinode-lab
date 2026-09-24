@@ -1,7 +1,7 @@
 #!
 
 SRC="/media/sf_win-screenshots"
-DEST="$HOME/rhel-govtech-multi-nodal-infrastructure"
+DEST="$HOME/rhel-govtech-multinode-lab"
 
 echo "Importing screenshots from $SRC..."
 

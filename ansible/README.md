@@ -27,13 +27,8 @@ Run playbooks:
 ansible-playbook -i inventory playbooks/<file>.yml
 
 
-## AI Integration
-AI was used to:
-- generate playbooks
-- troubleshoot syntax errors
-0 validate module usage
-- accelerate command construction
-
+## AI-Assisted Workflow
+Used AI as a troubleshooting aid for syntax errors and module lookups. Every playbook was run and validated against the live nodes before being committed.
 
 ## Outcome
 Infrastructure tasks transitioned from manual execution to automated orchestration.

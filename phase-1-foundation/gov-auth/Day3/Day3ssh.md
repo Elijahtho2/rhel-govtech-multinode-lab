@@ -20,7 +20,7 @@ ssh user200@localhost
 
 getenforce
 
-![Broken State](../screenshots/phase-1-auth/day3-ssh-broken.png)
+![Broken State](../screenshots/day3-ssh-broken.png)
 
 ## Fix
 
@@ -34,7 +34,7 @@ sudo systemctl enable --now sshd
 
 sudo setenforce 0
 
-![Fixed State](../screenshots/phase-1-auth/day3-ssh-fixed.png)
+![Fixed State](../screenshots/day3-ssh-fixed.png)
 
 ## Verification
 
@@ -42,19 +42,19 @@ sudo setenforce 0
 
 ssh user200@gov-auth
 
-![Verified](../screenshots/phase-1-auth/day3-ssh-verification.png)
+![Verified](../screenshots/day3-ssh-verification.png)
 
 ## Screenshots
 
 - Broken State
 
-![Broken State](../screenshots/phase-1-auth/day3-ssh-broken.png)
+![Broken State](../screenshots/day3-ssh-broken.png)
 
 - Fixed State
 
-![Fixed State](../screenshots/phase-1-auth/day3-ssh-fixed.png)
+![Fixed State](../screenshots/day3-ssh-fixed.png)
 
 - Verification
 
-![Verified](../screenshots/phase-1-auth/day3-ssh-verification.png)
+![Verified](../screenshots/day3-ssh-verification.png)
 

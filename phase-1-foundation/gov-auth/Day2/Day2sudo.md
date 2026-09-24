@@ -13,7 +13,7 @@ su - user200
 
 sudo systemctl restart sshd
 
-![Broken State](../screenshots/phase-1-auth/day2-sudo-broken.png)
+![Broken State](../screenshots/day2-sudo-broken.png)
 
 ## Fixed
 
@@ -27,7 +27,7 @@ visudo
 
 ----[ensure]    %wheel ALL=(ALL) ALL is there----
 
-![Fixed State](../screenshots/phase-1-auth/day2-sudo-fixed.png)
+![Fixed State](../screenshots/day2-sudo-fixed.png)
 
 ## Verification
 
@@ -37,21 +37,21 @@ su - user200
 
 sudo systemctl restart sshd
 
-![Verified](../screenshots/phase-1-auth/day2-sudo-verified.png)
+![Verified](../screenshots/day2-sudo-verified.png)
 
 ## Screenshots
 
 - Broken State
 
-![Broken State](../screenshots/phase-1-auth/day2-sudo-broken.png)
+![Broken State](../screenshots/day2-sudo-broken.png)
 
 - Fixed State
 
-![Fixed State](../screenshots/phase-1-auth/day2-sudo-fixed.png)
+![Fixed State](../screenshots/day2-sudo-fixed.png)
 
 - Verification
 
-![Verified](../screenshots/phase-1-auth/day2-sudo-verified.png)
+![Verified](../screenshots/day2-sudo-verified.png)
 
 
 
