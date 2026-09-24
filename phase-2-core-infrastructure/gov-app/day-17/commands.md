@@ -10,7 +10,7 @@ echo "Custom Apache Webdata" > /webdata/index.html
 vim /etc/httpd/conf.d/webdata.conf
 
 
-semanage fcontext -a -a httpd_sys_content_t "/webdata(/.*)?"
+semanage fcontext -a -t httpd_sys_content_t "/webdata(/.*)?"
 
 restorecon -Rv /webdata
 

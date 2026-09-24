@@ -1,10 +1,10 @@
-# Mulit-Phase Multi-Nodal RHEL-GovTech Lab Architecture
+# Multi-Phase Multi-Nodal RHEL-GovTech Lab Architecture
 
 ## Overview 
 
-This repository simulates a mulit-node Red Hat Enterprise Linux (RHEL) environment designed to reflect real-world GovTech infrastructure operations.
+This repository simulates a multi-node Red Hat Enterprise Linux (RHEL) environment designed to reflect real-world GovTech infrastructure operations.
 
-This labe is structured into three progressive phases, each building on the previous, and is deployed across three virtual machines (VMs) with clearly defined roles:
+This lab is structured into three progressive phases, each building on the previous, and is deployed across three virtual machines (VMs) with clearly defined roles:
 
 - Gov-Admin
 - Gov-Auth
@@ -86,7 +86,7 @@ Focus:
 - persistent infrastructure services
 - inter-node communication testing
 
--> This phase simulates real-world system interation across multiple hosts.
+-> This phase simulates real-world system interaction across multiple hosts.
 
 # Phase 3 - Security, Hardening, and Integrated Operations
 
@@ -117,7 +117,7 @@ Focus:
     - external repository access
     - internet connectivity validation
 
-# Node Interation Flow
+# Node Interaction Flow
 
 The system follows a structured operation pattern:
 
@@ -130,7 +130,7 @@ The system follows a structured operation pattern:
     3. Gov-App
         - consumes and validates services from a client perspective
 
-This mirros real-world infrastructure pipelines:
+This mirrors real-world infrastructure pipelines:
 
 - build -> validate -> consume
 
@@ -152,7 +152,7 @@ Each VM maintains its own:
 - screenshots
 - validation results
 
--> This reduces Git conflicts and mirros real multi-node operations.
+-> This reduces Git conflicts and mirrors real multi-node operations.
 
 # Documentation Strategy
 
@@ -175,7 +175,7 @@ This demonstrates:
 # Key Skills Demonstrated 
 
 - Linux system administration (RHCSA-aligned)
-- multi-node infrastructre coordination
+- multi-node infrastructure coordination
 - access control and identity management
 - storage and filesystem management
 - service configuration and validation
